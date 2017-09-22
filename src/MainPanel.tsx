@@ -43,23 +43,20 @@ class MainPanel extends RX.Component<null, null> {
                 <Content style={RX.Styles.createScrollViewStyle({marginTop:70})}>
                     <Item rounded style={ styles.inputGrp }>
                         <Input
-                        placeholder="E-mail"
-                        placeholderTextColor="#FFF"
-                        style={styles.input}
+                          placeholder="E-mail"
+                          placeholderTextColor="#FFF"
+                          style={styles.input}
                         />
                     </Item>
                     <Item rounded style={ styles.inputGrp }>
                         <Input
-                        placeholder="Password"
-                        secureTextEntry
-                        placeholderTextColor="#FFF"
-                        style={styles.input}
+                          placeholder="Password"
+                          secureTextEntry
+                          placeholderTextColor="#FFF"
+                          style={styles.input}
                         />
                     </Item>
-                    <Button 
-                      rounded primary
-                      style={ styles.loginBtn }
-                    >
+                    <Button rounded primary style={ styles.loginBtn }>
                         <Text 
                           style={RX.Styles.createTextInputStyle({ fontSize: 16, textAlign: 'center', color:'#efa317', fontWeight: 'bold'})}
                         >
