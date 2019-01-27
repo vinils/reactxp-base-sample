@@ -4,7 +4,7 @@
     "description": "An empty new project demonstrating how to combine React Native and TypeScript.",
     "slug": "expo-and-typescript",
     "privacy": "public",
-    "sdkVersion": "19.0.0",
+    "sdkVersion": "30.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "primaryColor": "#cccccc",
